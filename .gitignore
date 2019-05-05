@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Source/lib/pdb2mdb.exe
+/Source/lib/_updateLibs.bat
+/.vs/ONI-Modloader-Mods/v15/.suo
+/.vs/ProjectSettings.json
+/.vs
