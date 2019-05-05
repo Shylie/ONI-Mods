@@ -4,7 +4,7 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mods", "Mods", "{0263B9CC-A5D0-433C-82D2-20AAD99BAE40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForcedDuplicant", "ForcedDuplicantMod\ForcedDuplicant.csproj", "{3B96A8AF-6980-4541-883C-49208B5272F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForcedDuplicantMod", "ForcedDuplicantMod\ForcedDuplicantMod.csproj", "{3B96A8AF-6980-4541-883C-49208B5272F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoDeathsMod", "NoDeathsMod\NoDeathsMod.csproj", "{A15152E9-B0B7-4774-98A5-A0ED17C3C64E}"
 EndProject

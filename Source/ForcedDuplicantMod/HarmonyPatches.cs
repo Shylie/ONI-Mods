@@ -1,6 +1,6 @@
 ﻿using Harmony;
 
-namespace ForcedDuplicant
+namespace ForcedDuplicantMod
 {
 	[HarmonyPatch(typeof(Telepad), nameof(Telepad.Update))]
 	public static class ChallengeMod

@@ -7,8 +7,8 @@
     <ProjectGuid>{3B96A8AF-6980-4541-883C-49208B5272F4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ForcedDuplicant</RootNamespace>
-    <AssemblyName>ForcedDuplicant</AssemblyName>
+    <RootNamespace>ForcedDuplicantMod</RootNamespace>
+    <AssemblyName>ForcedDuplicantMod</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -23,7 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HarmonyPatches.cs" />
-    <Compile Include="ModConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
